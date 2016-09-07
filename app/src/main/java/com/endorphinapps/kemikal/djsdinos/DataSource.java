@@ -7,6 +7,7 @@ public enum DataSource {
 
     Diplodocus(R.string.diplodocus, R.drawable.diplodocus),
     Spinosaurus(R.string.spinosaurus, R.drawable.spinosaurus),
+    Stegosaurus(R.string.stegosaurus, R.drawable.stegosaurus),
     Triceratops(R.string.triceratops, R.drawable.triceratops),
     Tyrannosaurus(R.string.tyrannosaurus, R.drawable.tyrannosaurus),
     Velociraptor(R.string.velociraptor, R.drawable.velociraptor);

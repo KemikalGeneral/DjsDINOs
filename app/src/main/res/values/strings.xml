@@ -6,6 +6,7 @@
     <!--Dino names-->
     <string name="diplodocus">Diplodocus</string>
     <string name="spinosaurus">Spinosaurus</string>
+    <string name="stegosaurus">Stegosaurus</string>
     <string name="triceratops">Triceratops</string>
     <string name="tyrannosaurus">Tyrannosaurus Rex</string>
     <string name="velociraptor">Velociraptor</string>
@@ -33,6 +34,22 @@
         \n\nSpinosaurus was one of the biggest meat-eating dinosaurs ever to have lived. It may have used its sail to cool down its huge body.
         It would have stayed in the shade when it got too hot and pumped warm blood into the skin on its sail.
         The blood cooled down before returning to the rest of its body. </string>
+    <string name="stegosaurus_info">Stegosaurus is the most famous of all the armoured and plated dinosaurs.
+        This dinosaur was designed to defend itself against its main predators, Allosaurus, Ceratosaurus, and Torvosaurus.
+        It had 17 large plates and four tail spikes.
+        It could not outrun its attackers, in fact, it could not run at all, which is why it relied on defence.
+        Even its own throat was protected by more than 100 small bones in the skin.
+
+        \n\nSpikes and Plates&#8230;
+        \nStegosaurus used the plates at the end of its tail to swipe at and stab attackers.
+        Its plates were used for protection and may have been used to regulate temperature.
+
+        \n\nGiant Plant Eater&#8230;
+        \nStegosaurus had a small head and a long nose.
+        Its teeth were all at the back of its mouth and its upper and lower teeth ground against each other to cut and slice its food.
+        It had a sharp beak at the front of its mouth that was used to cut its food like a a pair of shears would.
+        It may have had pouches in its cheeks where it stored food before chewing it.
+    </string>
     <string name="triceratops_info">This famous dinosaur was one of the last dinosaurs to live on the Earth.
         Triceratops is also famous for being a food source for Tyrannosaurus Rex.
         Its frill counterbalanced the weight of its head, which was where its massive jaw muscles attached.

@@ -75,6 +75,18 @@ public class DinosaurActivity extends AppCompatActivity {
                 info = getResources().getString(R.string.spinosaurus_info);
                 map = R.drawable.world_map_egypt_north_africa;
                 break;
+            case "Stegosaurus" :
+                pronunciation = "(Pronunciation: STEG-oh-SAW-rus)";
+                image = R.drawable.stegosaurus;
+                fact_meaning = "Roofed Lizard";
+                fact_date = "Late Jurassic";
+                fact_group = "Stegosauria";
+                fact_diet = "Plants";
+                fact_size = "9m (29feet) long";
+                fact_fosilLocation = "USA 1877";
+                info = getResources().getString(R.string.stegosaurus_info);
+                map = R.drawable.world_map_usa;
+                break;
             case "Triceratops" :
                 pronunciation = "(Pronunciation: try-SER-a-tops)";
                 image = R.drawable.triceratops;
