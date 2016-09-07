@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Djs DINOs</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!--Dino names-->
+    <string name="spinosaurus">Spinosaurus</string>
+    <string name="raptor">Velociraptor</string>
+    <string name="t_rex">Tyrannosaurus Rex</string>
+
+    <!--Dino info-->
+    <string name="spinosaurus_info">
+        This 12ton predator was a spinosaur. Spinosaurus were unusual Theropods with crocodile-like skulls and a \'sail\' on their back.
+        The sail probably helped regulate body temperature and was used as a display for mating and territory disputes.
+        The spines along Spinosaurus\'s back were more than 1.8m (6feet) high. It had long hands with long, curved claws.
+        It may have used its claws to hunt fish.</string>
+    <string name="velociraptor_info">
+        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
+        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
+        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
+        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
+        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
+        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
+        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
+        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
+        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
+        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor </string>
+    <string name="trex_info">
+        Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex
+        Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex
+        Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex
+        Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex
+        Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex
+        Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex
+        Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex
+        Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex
+        Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex
+        Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex Tyrannosaurus Rex </string>
+
+    <!--Dino info labels-->
+    <string name="label_meaning">Meaning:</string>
+    <string name="label_date">Date:</string>
+    <string name="label_group">Group:</string>
+    <string name="label_diet">Diet:</string>
+    <string name="label_size">Size:</string>
+    <string name="label_location">Location:</string>
+
+    <!--Dino Info PlaceHolders (simply to visualise in the preview)-->
+    <string name="placeholder_dino_name">Dino name</string>
+    <string name="placeholder_pro_nun_see_a_shun">(PRO-nun-see-A-shun)</string>
+    <string name="placeholder_meaning_text">Meaning Text</string>
+    <string name="placeholder_date_text">Date Text</string>
+    <string name="placeholder_group_text">Group Text</string>
+    <string name="placeholder_diet_text">Diet Text</string>
+    <string name="placeholder_size_text">Size Text</string>
+    <string name="placeholder_location_text">Location Text</string>
+    <string name="placeholder_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel condimentum metus.
+        Cras volutpat nibh ipsum, id vehicula ligula rutrum a. Nunc id enim vel ipsum semper eleifend sit amet a ipsum.
+        Ut ultricies lacus lacus, quis luctus tortor molestie id. Nam diam ligula, finibus vel convallis eu, pulvinar vel mauris.
+        Curabitur sed erat eget urna luctus accumsan malesuada eget magna. Nulla eu odio vitae nibh interdum porttitor vel vitae ex. Proin quis metus velit.\n
+        \n
+        Quisque convallis erat purus, in finibus felis dapibus vestibulum. Pellentesque posuere consequat finibus.
+        Maecenas aliquam malesuada libero vitae faucibus. Curabitur in ex nisi. Donec ac odio at lorem finibus eleifend.
+        Nam non volutpat mauris, sed vulputate turpis. Nulla facilisi. Nam ultrices massa ac tortor ornare ultricies.
+        Morbi maximus semper finibus. Duis sollicitudin turpis augue, sit amet egestas augue vulputate vel.
+        Pellentesque pharetra sed purus eget blandit. Ut tempus neque quis orci accumsan pellentesque.</string>
+
+</resources>

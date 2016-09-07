@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".DinosaurActivity">
+
+        <!--Dino name-->
+        <TextView
+            android:id="@+id/tv_dino_name"
+            style="@style/heading_textView"
+            android:background="@color/blue"
+            android:textStyle="bold"/>
+
+        <!--Dino pronunciation-->
+        <TextView
+            android:id="@+id/tv_dino_pronunciation"
+            style="@style/heading_textView"
+            android:text="@string/placeholder_pro_nun_see_a_shun"
+            android:textSize="@dimen/text_size_standard"
+            android:letterSpacing="0"
+            android:background="@color/blue"
+            android:padding="0dp"/>
+
+        <!--Dino image-->
+        <ImageView
+            android:id="@+id/iv_dino_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:padding="@dimen/padding"
+            android:background="@drawable/blue_green_gradient" />
+
+        <!--Dino facts-->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:background="@color/green">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    style="@style/table_cell_textView_label"
+                    android:text="@string/label_meaning"
+                    android:gravity="end"/>
+                <TextView
+                    android:id="@+id/tv_fact_meaning"
+                    style="@style/table_cell_textView"
+                    android:text="@string/placeholder_meaning_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    style="@style/table_cell_textView_label"
+                    android:text="@string/label_date"
+                    android:gravity="end"/>
+                <TextView
+                    android:id="@+id/tv_fact_date"
+                    style="@style/table_cell_textView"
+                    android:text="@string/placeholder_date_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    style="@style/table_cell_textView_label"
+                    android:text="@string/label_group"
+                    android:gravity="end"/>
+                <TextView
+                    android:id="@+id/tv_fact_group"
+                    style="@style/table_cell_textView"
+                    android:text="@string/placeholder_group_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    style="@style/table_cell_textView_label"
+                    android:text="@string/label_diet"
+                    android:gravity="end"/>
+                <TextView
+                    android:id="@+id/tv_fact_diet"
+                    style="@style/table_cell_textView"
+                    android:text="@string/placeholder_diet_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    style="@style/table_cell_textView_label"
+                    android:text="@string/label_size"
+                    android:gravity="end"/>
+                <TextView
+                    android:id="@+id/tv_fact_size"
+                    style="@style/table_cell_textView"
+                    android:text="@string/placeholder_size_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    style="@style/table_cell_textView_label"
+                    android:text="@string/label_location"
+                    android:gravity="end"/>
+                <TextView
+                    android:id="@+id/tv_fact_fosilLocation"
+                    style="@style/table_cell_textView"
+                    android:text="@string/placeholder_location_text" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="@drawable/drop_shadow_down"/>
+
+        <!--Dino main content-->
+        <TextView
+            android:id="@+id/tv_dino_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_ipsum"
+            android:textSize="@dimen/text_size_standard"
+            android:padding="@dimen/padding"
+            android:lineSpacingExtra="5sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="@drawable/drop_shadow_up"/>
+
+        <!--Dino location map-->
+        <ImageView
+            android:id="@+id/iv_dino_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/world_map"
+            android:adjustViewBounds="true"/>
+
+    </LinearLayout>
+</ScrollView>
