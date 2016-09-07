@@ -61,7 +61,7 @@ public class DinosaurActivity extends AppCompatActivity {
                 pronunciation = "(Pronunciation: SPY-noh-SAW-rus)";
                 image = R.drawable.spinosaurus;
                 fact_meaning = "Spine Lizard";
-                fact_date = "Early Creatious";
+                fact_date = "Early Cretaceous";
                 fact_group = "Theropoda";
                 fact_diet = "Meat";
                 fact_size = "10m (33feet) long";
@@ -72,7 +72,7 @@ public class DinosaurActivity extends AppCompatActivity {
             case "Velociraptor" :
                 image = R.drawable.velociraptor;
                 fact_meaning = "Spine Lizard";
-                fact_date = "Early Creatious";
+                fact_date = "Early Cretaceous";
                 fact_group = "Theropoda";
                 fact_diet = "Meat";
                 fact_size = "10m (33feet) long";
@@ -81,15 +81,16 @@ public class DinosaurActivity extends AppCompatActivity {
                 map = R.drawable.world_map;
                 break;
             case "Tyrannosaurus Rex" :
+                pronunciation = "(Pronunciation: tie-RAN-oh-SAW-rus)";
                 image = R.drawable.tyrannosaurus;
-                fact_meaning = "Spine Lizard";
-                fact_date = "Early Creatious";
+                fact_meaning = "Tyrant Lizard";
+                fact_date = "Late Cretaceous";
                 fact_group = "Theropoda";
                 fact_diet = "Meat";
-                fact_size = "10m (33feet) long";
-                fact_fosilLocation = "Egypt, North Africa 1915";
+                fact_size = "12m (40feet) long";
+                fact_fosilLocation = "Canada, USA 1905";
                 info = getResources().getString(R.string.trex_info);
-                map = R.drawable.world_map;
+                map = R.drawable.world_map_tyrannosaurus;
                 break;
         }
 
