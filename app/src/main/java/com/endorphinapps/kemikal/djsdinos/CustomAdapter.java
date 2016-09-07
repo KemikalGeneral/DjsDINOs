@@ -44,15 +44,18 @@ public class CustomAdapter extends PagerAdapter {
 
                 switch (position) {
                     case 0:
-                        resource = R.string.spinosaurus;
+                        resource = R.string.diplodocus;
                         break;
                     case 1:
-                        resource = R.string.triceratops;
+                        resource = R.string.spinosaurus;
                         break;
                     case 2:
-                        resource = R.string.tyrannosaurus;
+                        resource = R.string.triceratops;
                         break;
                     case 3 :
+                        resource = R.string.tyrannosaurus;
+                        break;
+                    case 4 :
                         resource = R.string.velociraptor;
                         break;
                 }

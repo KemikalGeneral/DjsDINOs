@@ -4,12 +4,27 @@
     <string name="action_settings">Settings</string>
 
     <!--Dino names-->
+    <string name="diplodocus">Diplodocus</string>
     <string name="spinosaurus">Spinosaurus</string>
     <string name="triceratops">Triceratops</string>
     <string name="tyrannosaurus">Tyrannosaurus Rex</string>
     <string name="velociraptor">Velociraptor</string>
 
     <!--Dino Content-->
+    <string name="diplodocus_info">If the word "sleek" could be applied to a sauropod, then that would describe Diplodocus.
+        Its main body weight was slightly larger than that of an elephant.
+        Its great length came from its long neck and tail.
+        Diplodocus stood on the edge of a river or lake and used its neck like a vacuum cleaner.
+        Its pencil-like teeth raked up soft-fiber plants.
+        Its food was swallowed whole - sauropods could not chew.
+
+        \n\nBig Reach&#8230;
+        \nDiplodocus\'s back legs were longer than its front legs.
+        It probably reared up onto its hind legs to reach leaves in taller trees or perhaps to scare off predators.
+
+        \n\nFeet&#8230;
+        \nDiplodocus had four big feet to help carry its large weight.
+        It also walked on its toes, as elephants do.</string>
     <string name="spinosaurus_info">This 12ton predator was a spinosaur. Spinosaurus were unusual Theropods with crocodile-like skulls and a \'sail\' on their back.
         The sail probably helped regulate body temperature and was used as a display for mating and territory disputes.
         The spines along Spinosaurus\'s back were more than 1.8m (6feet) high. It had long hands with long, curved claws.

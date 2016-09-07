@@ -51,6 +51,18 @@ public class DinosaurActivity extends AppCompatActivity {
         int map = 0;
 
         switch (name) {
+            case "Diplodocus" :
+                pronunciation = "(Pronunciation: dip-LOD-o-kus)";
+                image = R.drawable.diplodocus;
+                fact_meaning = "Double-beam";
+                fact_date = "Late Jurassic";
+                fact_group = "Sauropodamorpha";
+                fact_diet = "Plants";
+                fact_size = "30m (98feet) long";
+                fact_fosilLocation = "USA 1878";
+                info = getResources().getString(R.string.diplodocus_info);
+                map = R.drawable.world_map_usa;
+                break;
             case "Spinosaurus" :
                 pronunciation = "(Pronunciation: SPY-noh-SAW-rus)";
                 image = R.drawable.spinosaurus;
@@ -73,7 +85,7 @@ public class DinosaurActivity extends AppCompatActivity {
                 fact_size = "9m (30feet) long";
                 fact_fosilLocation = "Canada, USA 1889";
                 info = getResources().getString(R.string.triceratops_info);
-                map = R.drawable.world_map_canada;
+                map = R.drawable.world_map_canada_usa;
                 break;
             case "Tyrannosaurus Rex" :
                 pronunciation = "(Pronunciation: tie-RAN-oh-SAW-rus)";
@@ -85,7 +97,7 @@ public class DinosaurActivity extends AppCompatActivity {
                 fact_size = "12m (40feet) long";
                 fact_fosilLocation = "Canada, USA 1905";
                 info = getResources().getString(R.string.tyrannosaurus_info);
-                map = R.drawable.world_map_canada;
+                map = R.drawable.world_map_canada_usa;
                 break;
             case "Velociraptor" :
                 pronunciation = "(Pronunciation: ve-LOSS-i-RAP-tor)";
