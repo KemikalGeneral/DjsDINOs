@@ -61,18 +61,19 @@ public class DinosaurActivity extends AppCompatActivity {
                 fact_size = "10m (33feet) long";
                 fact_fosilLocation = "Egypt, North Africa 1915";
                 info = getResources().getString(R.string.spinosaurus_info);
-                map = R.drawable.world_map_spinosaurus;
+                map = R.drawable.world_map_egypt_north_africa;
                 break;
-            case "Velociraptor" :
-                image = R.drawable.velociraptor;
-                fact_meaning = "Spine Lizard";
-                fact_date = "Early Cretaceous";
-                fact_group = "Theropoda";
-                fact_diet = "Meat";
-                fact_size = "10m (33feet) long";
-                fact_fosilLocation = "Egypt, North Africa 1915";
-                info = getResources().getString(R.string.velociraptor_info);
-                map = R.drawable.world_map;
+            case "Triceratops" :
+                pronunciation = "(Pronunciation: try-SER-a-tops)";
+                image = R.drawable.triceratops;
+                fact_meaning = "Three-horned Face";
+                fact_date = "Late Cretaceous";
+                fact_group = "Ceratopsia";
+                fact_diet = "Plants";
+                fact_size = "9m (30feet) long";
+                fact_fosilLocation = "Canada, USA 1889";
+                info = getResources().getString(R.string.triceratops_info);
+                map = R.drawable.world_map_canada;
                 break;
             case "Tyrannosaurus Rex" :
                 pronunciation = "(Pronunciation: tie-RAN-oh-SAW-rus)";
@@ -83,8 +84,20 @@ public class DinosaurActivity extends AppCompatActivity {
                 fact_diet = "Meat";
                 fact_size = "12m (40feet) long";
                 fact_fosilLocation = "Canada, USA 1905";
-                info = getResources().getString(R.string.trex_info);
-                map = R.drawable.world_map_tyrannosaurus;
+                info = getResources().getString(R.string.tyrannosaurus_info);
+                map = R.drawable.world_map_canada;
+                break;
+            case "Velociraptor" :
+                pronunciation = "(Pronunciation: ve-LOSS-i-RAP-tor)";
+                image = R.drawable.velociraptor;
+                fact_meaning = "Rapid Thief";
+                fact_date = "Late Cretaceous";
+                fact_group = "Theropoda";
+                fact_diet = "Meat";
+                fact_size = "1m (3feet) long";
+                fact_fosilLocation = "Mongolia, China 1924";
+                info = getResources().getString(R.string.velociraptor_info);
+                map = R.drawable.world_map_china;
                 break;
         }
 

@@ -6,8 +6,9 @@ package com.endorphinapps.kemikal.djsdinos;
 public enum DataSource {
 
     Spinosaurus(R.string.spinosaurus, R.drawable.spinosaurus),
-    Raptor(R.string.raptor, R.drawable.velociraptor),
-    Trex(R.string.t_rex, R.drawable.tyrannosaurus);
+    Triceratops(R.string.triceratops, R.drawable.triceratops),
+    Tyrannosaurus(R.string.tyrannosaurus, R.drawable.tyrannosaurus),
+    Velociraptor(R.string.velociraptor, R.drawable.velociraptor);
 
     private int name;
     private int image;

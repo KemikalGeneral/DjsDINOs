@@ -5,8 +5,9 @@
 
     <!--Dino names-->
     <string name="spinosaurus">Spinosaurus</string>
-    <string name="raptor">Velociraptor</string>
-    <string name="t_rex">Tyrannosaurus Rex</string>
+    <string name="triceratops">Triceratops</string>
+    <string name="tyrannosaurus">Tyrannosaurus Rex</string>
+    <string name="velociraptor">Velociraptor</string>
 
     <!--Dino Content-->
     <string name="spinosaurus_info">This 12ton predator was a spinosaur. Spinosaurus were unusual Theropods with crocodile-like skulls and a \'sail\' on their back.
@@ -17,18 +18,29 @@
         \n\nSpinosaurus was one of the biggest meat-eating dinosaurs ever to have lived. It may have used its sail to cool down its huge body.
         It would have stayed in the shade when it got too hot and pumped warm blood into the skin on its sail.
         The blood cooled down before returning to the rest of its body. </string>
-    <string name="velociraptor_info">
-        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
-        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
-        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
-        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
-        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
-        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
-        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
-        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
-        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor
-        Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor Velociraptor </string>
-    <string name="trex_info">Tyrannosaurus rex is the most famous dinosaur of all time.
+    <string name="triceratops_info">This famous dinosaur was one of the last dinosaurs to live on the Earth.
+        Triceratops is also famous for being a food source for Tyrannosaurus Rex.
+        Its frill counterbalanced the weight of its head, which was where its massive jaw muscles attached.
+        It had the strongest jaws of any plant eater.
+        Its teeth sharpened themselves on their food and were replaced throughout its life.
+        They sheared past each other like giant shears.
+        Triceratops could chomp its way through any vegetation.
+        Although it looked like a Rhinoceros, it could not gallop like one.
+        It was much slower than T-Rex and had to rely on its huge horns for defence.
+
+        \n\nA Survivor&#8230;
+        \nAlthough Triceratops lived when there were many fierce theropods, including Tyrannosaurus, it survived until the end of the Cretaceous.
+        It used its three horns to charge and stab its attackers and it used its frill to protect its neck from predators\' teeth.
+
+        \n\nHorns and Frill&#8230;
+        \nTriceratops\'s two horns above its eyes grew to more than 1m (3 feet) long.
+        The horn on its nose was smaller.
+        Triceratops\'s frill could have been used for courtship and temperature regulation.
+        Triceratops\'s horns were part of its skull - they were made of bone.
+        Triceratops had a short frill made of solid bone on its head.
+        The frill was covered in skin.
+    </string>
+    <string name="tyrannosaurus_info">Tyrannosaurus rex is the most famous dinosaur of all time.
         It lived at the end of the Cretaceous and dined on Triceratops and Edmontosaurus.
         There have been two other contenders for the \'largest land predator of all time\' - Carcharodontosaurus and Giganotosaurus.
         However, T-Rex had a larger and more powerful skull.
@@ -46,6 +58,21 @@
         \nThe skull of Tyrannosaurus was powerful enough to crunch down and kill its prey.
         Its heavy jaw had an extra joint in the middle, so the mouth could open wide to take extra-large bites.
         It had bony nits above and below its eyes to protect them from being damaged by struggling prey.</string>
+    <string name="velociraptor_info">
+        Velociraptor was a lightly built, fast predator with a deadly sickle-shaped claw on each foot.
+        Its relatively large brain size tells us that it must have been one of the smartest dinosaurs.
+        It is also one of the most famous.
+        In the Gobi Desert, in 1971, a complete skeleton was found locked in a death grip with Protoceratops.
+        These two dinosaurs have been fighting for more than 75 million years.
+
+        \n\nBumps on a Wing&#8230;
+        \nVelociraptor was a two-legged, feathered dinosaur.
+        We know it had feathers because scientists recently found knobs on a Velociraptors forearm that were the same as the bumps on bird wingbones where their feathers were connected.
+
+        \n\nBrains&#8230;
+        \nVelociraptor had a large brain for its body size.
+        The only smarter dinosaur that we know of is Troodon.
+    </string>
 
     <!--Dino info labels-->
     <string name="label_meaning">Meaning:</string>

@@ -47,10 +47,13 @@ public class CustomAdapter extends PagerAdapter {
                         resource = R.string.spinosaurus;
                         break;
                     case 1:
-                        resource = R.string.raptor;
+                        resource = R.string.triceratops;
                         break;
                     case 2:
-                        resource = R.string.t_rex;
+                        resource = R.string.tyrannosaurus;
+                        break;
+                    case 3 :
+                        resource = R.string.velociraptor;
                         break;
                 }
                 String name = v.getResources().getString(resource);
