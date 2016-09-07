@@ -4,6 +4,7 @@
     <string name="action_settings">Settings</string>
 
     <!--Dino names-->
+    <string name="compsognathus">Compsognathus</string>
     <string name="diplodocus">Diplodocus</string>
     <string name="spinosaurus">Spinosaurus</string>
     <string name="stegosaurus">Stegosaurus</string>
@@ -12,6 +13,15 @@
     <string name="velociraptor">Velociraptor</string>
 
     <!--Dino Content-->
+    <string name="compsognathus_info">Compsognathus was a theropod the size of a large turkey, and an active predator of small animals.
+        One specimen has a complete lizard inside its stomach - it had been swallowed whole.
+        Its relatively small teeth were adapted to grabbing prey but not to slicing them, as bigger theropods\' teeth were.
+        Compsognathus was found in the same fossil deposit as the first bird, Archeopteryx, and the famous pterosaurs Rhamphorbynchus and Pterodactylus.
+        They all lived in a lagoon-like area.
+
+        \n\nCompsognathus was an agile predator.
+        It may have also been two-fingered but the hands found were not intact so scientists cannot be sure.
+    </string>
     <string name="diplodocus_info">If the word "sleek" could be applied to a sauropod, then that would describe Diplodocus.
         Its main body weight was slightly larger than that of an elephant.
         Its great length came from its long neck and tail.

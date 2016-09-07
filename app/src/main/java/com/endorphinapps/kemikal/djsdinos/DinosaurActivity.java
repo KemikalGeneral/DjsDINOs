@@ -16,7 +16,7 @@ public class DinosaurActivity extends AppCompatActivity {
     private TextView tv_fact_group;
     private TextView tv_fact_diet;
     private TextView tv_fact_size;
-    private TextView tv_fact_fosilLocation;
+    private TextView tv_fact_fossilLocation;
     private TextView tv_dino_info;
     private ImageView iv_dino_map;
 
@@ -44,13 +44,25 @@ public class DinosaurActivity extends AppCompatActivity {
                 fact_group = null,
                 fact_diet = null,
                 fact_size = null,
-                fact_fosilLocation = null;
+                fact_fossilLocation = null;
         //Information
         String info = null;
         //Location (image on map)
         int map = 0;
 
         switch (name) {
+            case "Compsognathus" :
+                pronunciation = "(Pronunciation: KOMP-sog-NA-thus)";
+                image = R.drawable.compsognathus;
+                fact_meaning = "Elegant Jaw";
+                fact_date = "Late Jurassic";
+                fact_group = "Theropoda";
+                fact_diet = "Meat";
+                fact_size = "1m (3feet) long";
+                fact_fossilLocation = "France, Germany 1859";
+                info = getResources().getString(R.string.compsognathus_info);
+                map = R.drawable.world_map_france_germany;
+                break;
             case "Diplodocus" :
                 pronunciation = "(Pronunciation: dip-LOD-o-kus)";
                 image = R.drawable.diplodocus;
@@ -59,7 +71,7 @@ public class DinosaurActivity extends AppCompatActivity {
                 fact_group = "Sauropodamorpha";
                 fact_diet = "Plants";
                 fact_size = "30m (98feet) long";
-                fact_fosilLocation = "USA 1878";
+                fact_fossilLocation = "USA 1878";
                 info = getResources().getString(R.string.diplodocus_info);
                 map = R.drawable.world_map_usa;
                 break;
@@ -71,7 +83,7 @@ public class DinosaurActivity extends AppCompatActivity {
                 fact_group = "Theropoda";
                 fact_diet = "Meat";
                 fact_size = "10m (33feet) long";
-                fact_fosilLocation = "Egypt, North Africa 1915";
+                fact_fossilLocation = "Egypt, North Africa 1915";
                 info = getResources().getString(R.string.spinosaurus_info);
                 map = R.drawable.world_map_egypt_north_africa;
                 break;
@@ -83,7 +95,7 @@ public class DinosaurActivity extends AppCompatActivity {
                 fact_group = "Stegosauria";
                 fact_diet = "Plants";
                 fact_size = "9m (29feet) long";
-                fact_fosilLocation = "USA 1877";
+                fact_fossilLocation = "USA 1877";
                 info = getResources().getString(R.string.stegosaurus_info);
                 map = R.drawable.world_map_usa;
                 break;
@@ -95,7 +107,7 @@ public class DinosaurActivity extends AppCompatActivity {
                 fact_group = "Ceratopsia";
                 fact_diet = "Plants";
                 fact_size = "9m (30feet) long";
-                fact_fosilLocation = "Canada, USA 1889";
+                fact_fossilLocation = "Canada, USA 1889";
                 info = getResources().getString(R.string.triceratops_info);
                 map = R.drawable.world_map_canada_usa;
                 break;
@@ -107,7 +119,7 @@ public class DinosaurActivity extends AppCompatActivity {
                 fact_group = "Theropoda";
                 fact_diet = "Meat";
                 fact_size = "12m (40feet) long";
-                fact_fosilLocation = "Canada, USA 1905";
+                fact_fossilLocation = "Canada, USA 1905";
                 info = getResources().getString(R.string.tyrannosaurus_info);
                 map = R.drawable.world_map_canada_usa;
                 break;
@@ -119,7 +131,7 @@ public class DinosaurActivity extends AppCompatActivity {
                 fact_group = "Theropoda";
                 fact_diet = "Meat";
                 fact_size = "1m (3feet) long";
-                fact_fosilLocation = "Mongolia, China 1924";
+                fact_fossilLocation = "Mongolia, China 1924";
                 info = getResources().getString(R.string.velociraptor_info);
                 map = R.drawable.world_map_china;
                 break;
@@ -133,7 +145,7 @@ public class DinosaurActivity extends AppCompatActivity {
         tv_fact_group.setText(fact_group);
         tv_fact_diet.setText(fact_diet);
         tv_fact_size.setText(fact_size);
-        tv_fact_fosilLocation.setText(fact_fosilLocation);
+        tv_fact_fossilLocation.setText(fact_fossilLocation);
         tv_dino_info.setText(info);
         iv_dino_map.setImageResource(map);
     }
@@ -147,7 +159,7 @@ public class DinosaurActivity extends AppCompatActivity {
         tv_fact_group = (TextView) findViewById(R.id.tv_fact_group);
         tv_fact_diet = (TextView) findViewById(R.id.tv_fact_diet);
         tv_fact_size = (TextView) findViewById(R.id.tv_fact_size);
-        tv_fact_fosilLocation = (TextView) findViewById(R.id.tv_fact_fosilLocation);
+        tv_fact_fossilLocation = (TextView) findViewById(R.id.tv_fact_fosilLocation);
         tv_dino_info = (TextView) findViewById(R.id.tv_dino_info);
         iv_dino_map = (ImageView) findViewById(R.id.iv_dino_map);
     }
