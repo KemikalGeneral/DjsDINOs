@@ -5,6 +5,7 @@
 
     <!--Navigation Items Array-->
     <string-array name="navArray">
+        <item>@string/abelisaurus</item>
         <item>@string/compsognathus</item>
         <item>@string/diplodocus</item>
         <item>@string/spinosaurus</item>
@@ -15,6 +16,7 @@
     </string-array>
 
     <!--Dino names-->
+    <string name="abelisaurus">Abelisaurus</string>
     <string name="compsognathus">Compsognathus</string>
     <string name="diplodocus">Diplodocus</string>
     <string name="spinosaurus">Spinosaurus</string>
@@ -24,6 +26,10 @@
     <string name="velociraptor">Velociraptor</string>
 
     <!--Dino Content-->
+    <string name="abelisaurus_info">This dinosaur from South America is part of a group of meat eaters that evolved separately from the more famous Tyrannosaurus on the northern continents.
+        It had a high skull and extremely powerful jaw muscles - its jaw could slam shut so fast that its prey did not have time to react.
+        Scientists have found a 1 meter (3 feet) long skull but they do not know how large Abelisaurus grew.
+    </string>
     <string name="compsognathus_info">Compsognathus was a theropod the size of a large turkey, and an active predator of small animals.
         One specimen has a complete lizard inside its stomach - it had been swallowed whole.
         Its relatively small teeth were adapted to grabbing prey but not to slicing them, as bigger theropods\' teeth were.

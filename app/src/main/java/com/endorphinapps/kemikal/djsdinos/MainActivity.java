@@ -52,24 +52,27 @@ public class MainActivity extends AppCompatActivity {
 
                 switch (position) {
                     case 0:
-                        resource = R.string.compsognathus;
+                        resource = R.string.abelisaurus;
                         break;
                     case 1:
-                        resource = R.string.diplodocus;
+                        resource = R.string.compsognathus;
                         break;
                     case 2:
-                        resource = R.string.spinosaurus;
+                        resource = R.string.diplodocus;
                         break;
                     case 3 :
-                        resource = R.string.stegosaurus;
+                        resource = R.string.spinosaurus;
                         break;
                     case 4 :
-                        resource = R.string.triceratops;
+                        resource = R.string.stegosaurus;
                         break;
                     case 5 :
-                        resource = R.string.tyrannosaurus;
+                        resource = R.string.triceratops;
                         break;
                     case 6 :
+                        resource = R.string.tyrannosaurus;
+                        break;
+                    case 7 :
                         resource = R.string.velociraptor;
                         break;
                 }

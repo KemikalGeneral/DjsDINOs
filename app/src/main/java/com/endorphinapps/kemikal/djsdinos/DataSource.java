@@ -5,6 +5,7 @@ package com.endorphinapps.kemikal.djsdinos;
  */
 public enum DataSource {
 
+    Abelisaurus(R.string.abelisaurus, R.drawable.abelisaurus),
     Compsognathus(R.string.compsognathus, R.drawable.compsognathus),
     Diplodocus(R.string.diplodocus, R.drawable.diplodocus),
     Spinosaurus(R.string.spinosaurus, R.drawable.spinosaurus),
