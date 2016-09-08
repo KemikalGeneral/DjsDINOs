@@ -1,9 +1,13 @@
 package com.endorphinapps.kemikal.djsdinos;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 public class DinosaurActivity extends AppCompatActivity {
@@ -19,6 +23,9 @@ public class DinosaurActivity extends AppCompatActivity {
     private TextView tv_fact_fossilLocation;
     private TextView tv_dino_info;
     private ImageView iv_dino_map;
+    //Nav Drawer
+    private ListView mDrawerList;
+    private ArrayAdapter<String> mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +34,9 @@ public class DinosaurActivity extends AppCompatActivity {
 
         //Find all Views
         findViews();
+
+        //Nav Drawer
+        addDrawerItemsAndListener();
 
         /**
          * Get extras from Intent and use to determine which dinosaur the views need to be set to
@@ -162,5 +172,52 @@ public class DinosaurActivity extends AppCompatActivity {
         tv_fact_fossilLocation = (TextView) findViewById(R.id.tv_fact_fosilLocation);
         tv_dino_info = (TextView) findViewById(R.id.tv_dino_info);
         iv_dino_map = (ImageView) findViewById(R.id.iv_dino_map);
+        //Nav Drawer
+        mDrawerList = (ListView) findViewById(R.id.nav_listView);
     }
+
+    //Add list items to the nav drawer and setup click listener
+    private void addDrawerItemsAndListener() {
+        String[] osArray = getResources().getStringArray(R.array.navArray);
+        mAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, osArray);
+        mDrawerList.setAdapter(mAdapter);
+
+        mDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                int resource = 0;
+
+                switch (position) {
+                    case 0:
+                        resource = R.string.compsognathus;
+                        break;
+                    case 1:
+                        resource = R.string.diplodocus;
+                        break;
+                    case 2:
+                        resource = R.string.spinosaurus;
+                        break;
+                    case 3 :
+                        resource = R.string.stegosaurus;
+                        break;
+                    case 4 :
+                        resource = R.string.triceratops;
+                        break;
+                    case 5 :
+                        resource = R.string.tyrannosaurus;
+                        break;
+                    case 6 :
+                        resource = R.string.velociraptor;
+                        break;
+                }
+                String name = view.getResources().getString(resource);
+
+                Intent intent = new Intent(getApplicationContext(), DinosaurActivity.class);
+                intent.putExtra("EXTRAS_NAME", name);
+                startActivity(intent);
+            }
+        });
+    }
+
 }

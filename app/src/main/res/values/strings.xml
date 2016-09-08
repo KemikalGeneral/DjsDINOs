@@ -3,6 +3,17 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="action_settings">Settings</string>
 
+    <!--Navigation Items Array-->
+    <string-array name="navArray">
+        <item>@string/compsognathus</item>
+        <item>@string/diplodocus</item>
+        <item>@string/spinosaurus</item>
+        <item>@string/stegosaurus</item>
+        <item>@string/triceratops</item>
+        <item>@string/tyrannosaurus</item>
+        <item>@string/velociraptor</item>
+    </string-array>
+
     <!--Dino names-->
     <string name="compsognathus">Compsognathus</string>
     <string name="diplodocus">Diplodocus</string>
