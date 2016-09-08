@@ -73,6 +73,18 @@ public class DinosaurActivity extends AppCompatActivity {
                 info = getResources().getString(R.string.abelisaurus_info);
                 map = R.drawable.world_map_argentina;
                 break;
+            case "Agustinia" :
+                pronunciation = "(Pronunciation: ah-goo-STEE-nee-a)";
+                image = R.drawable.agustinia;
+                fact_meaning = "After Agustin Martinelli";
+                fact_date = "Early Cretaceous";
+                fact_group = "Sauropodamorpha";
+                fact_diet = "Plants";
+                fact_size = "15m (50feet) long";
+                fact_fossilLocation = "Argentina 1999";
+                info = getResources().getString(R.string.agustinia_info);
+                map = R.drawable.world_map_argentina;
+                break;
             case "Compsognathus" :
                 pronunciation = "(Pronunciation: KOMP-sog-NA-thus)";
                 image = R.drawable.compsognathus;

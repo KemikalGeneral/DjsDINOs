@@ -6,6 +6,7 @@
     <!--Navigation Items Array-->
     <string-array name="navArray">
         <item>@string/abelisaurus</item>
+        <item>@string/agustinia</item>
         <item>@string/compsognathus</item>
         <item>@string/diplodocus</item>
         <item>@string/spinosaurus</item>
@@ -17,6 +18,7 @@
 
     <!--Dino names-->
     <string name="abelisaurus">Abelisaurus</string>
+    <string name="agustinia">Agustinia</string>
     <string name="compsognathus">Compsognathus</string>
     <string name="diplodocus">Diplodocus</string>
     <string name="spinosaurus">Spinosaurus</string>
@@ -29,6 +31,13 @@
     <string name="abelisaurus_info">This dinosaur from South America is part of a group of meat eaters that evolved separately from the more famous Tyrannosaurus on the northern continents.
         It had a high skull and extremely powerful jaw muscles - its jaw could slam shut so fast that its prey did not have time to react.
         Scientists have found a 1 meter (3 feet) long skull but they do not know how large Abelisaurus grew.
+    </string>
+    <string name="agustinia_info">This sauropod looked like a combination stegosaur, ankylosaur, and porcupine.
+        Its skin was covered in armour-like bony lumps, called osteoderms.
+        Its back was covered with two rows of spikes that stuck out sideways.
+        Some spike were up to 75cm (29 inches) long.
+        It also had spikes on its tail and possibly on its neck.
+        Agustinia is only known from parts of skeletons. Discoveries of fossils may lead scientists to believe it looked even more strange than we think today.
     </string>
     <string name="compsognathus_info">Compsognathus was a theropod the size of a large turkey, and an active predator of small animals.
         One specimen has a complete lizard inside its stomach - it had been swallowed whole.
@@ -52,7 +61,8 @@
 
         \n\nFeet&#8230;
         \nDiplodocus had four big feet to help carry its large weight.
-        It also walked on its toes, as elephants do.</string>
+        It also walked on its toes, as elephants do.
+    </string>
     <string name="spinosaurus_info">This 12ton predator was a spinosaur. Spinosaurus were unusual Theropods with crocodile-like skulls and a \'sail\' on their back.
         The sail probably helped regulate body temperature and was used as a display for mating and territory disputes.
         The spines along Spinosaurus\'s back were more than 1.8m (6feet) high. It had long hands with long, curved claws.
@@ -60,7 +70,8 @@
 
         \n\nSpinosaurus was one of the biggest meat-eating dinosaurs ever to have lived. It may have used its sail to cool down its huge body.
         It would have stayed in the shade when it got too hot and pumped warm blood into the skin on its sail.
-        The blood cooled down before returning to the rest of its body. </string>
+        The blood cooled down before returning to the rest of its body.
+    </string>
     <string name="stegosaurus_info">Stegosaurus is the most famous of all the armoured and plated dinosaurs.
         This dinosaur was designed to defend itself against its main predators, Allosaurus, Ceratosaurus, and Torvosaurus.
         It had 17 large plates and four tail spikes.
@@ -116,7 +127,8 @@
         \n\nTyrannosaurus Skull&#8230;
         \nThe skull of Tyrannosaurus was powerful enough to crunch down and kill its prey.
         Its heavy jaw had an extra joint in the middle, so the mouth could open wide to take extra-large bites.
-        It had bony nits above and below its eyes to protect them from being damaged by struggling prey.</string>
+        It had bony nits above and below its eyes to protect them from being damaged by struggling prey.
+    </string>
     <string name="velociraptor_info">
         Velociraptor was a lightly built, fast predator with a deadly sickle-shaped claw on each foot.
         Its relatively large brain size tells us that it must have been one of the smartest dinosaurs.
