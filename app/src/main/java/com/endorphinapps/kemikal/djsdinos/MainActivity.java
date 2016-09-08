@@ -58,24 +58,36 @@ public class MainActivity extends AppCompatActivity {
                         resource = R.string.agustinia;
                         break;
                     case 2:
-                        resource = R.string.compsognathus;
+                        resource = R.string.albertoceratops;
                         break;
                     case 3 :
-                        resource = R.string.diplodocus;
+                        resource = R.string.albertosaurus;
                         break;
                     case 4 :
-                        resource = R.string.spinosaurus;
+                        resource = R.string.allosaurus;
                         break;
                     case 5 :
-                        resource = R.string.stegosaurus;
+                        resource = R.string.alvarezsaurus;
                         break;
                     case 6 :
-                        resource = R.string.triceratops;
+                        resource = R.string.compsognathus;
                         break;
                     case 7 :
-                        resource = R.string.tyrannosaurus;
+                        resource = R.string.diplodocus;
                         break;
                     case 8 :
+                        resource = R.string.spinosaurus;
+                        break;
+                    case 9 :
+                        resource = R.string.stegosaurus;
+                        break;
+                    case 10 :
+                        resource = R.string.triceratops;
+                        break;
+                    case 11 :
+                        resource = R.string.tyrannosaurus;
+                        break;
+                    case 12 :
                         resource = R.string.velociraptor;
                         break;
                 }

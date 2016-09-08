@@ -7,6 +7,10 @@
     <string-array name="navArray">
         <item>@string/abelisaurus</item>
         <item>@string/agustinia</item>
+        <item>@string/albertoceratops</item>
+        <item>@string/albertosaurus</item>
+        <item>@string/allosaurus</item>
+        <item>@string/alvarezsaurus</item>
         <item>@string/compsognathus</item>
         <item>@string/diplodocus</item>
         <item>@string/spinosaurus</item>
@@ -19,6 +23,10 @@
     <!--Dino names-->
     <string name="abelisaurus">Abelisaurus</string>
     <string name="agustinia">Agustinia</string>
+    <string name="albertoceratops">Albertoceratops</string>
+    <string name="albertosaurus">Albertosaurus</string>
+    <string name="allosaurus">Allosaurus</string>
+    <string name="alvarezsaurus">Alvarezsaurus</string>
     <string name="compsognathus">Compsognathus</string>
     <string name="diplodocus">Diplodocus</string>
     <string name="spinosaurus">Spinosaurus</string>
@@ -38,6 +46,39 @@
         Some spike were up to 75cm (29 inches) long.
         It also had spikes on its tail and possibly on its neck.
         Agustinia is only known from parts of skeletons. Discoveries of fossils may lead scientists to believe it looked even more strange than we think today.
+    </string>
+    <string name="albertoceratops_info">This horned dinosaur looked as if it had can-openers at the back of its head, behind its frill.
+        These horns protected its frill from being bitten by tyrannosaurs that lived at the same time.
+        Shaking oits head from side to side would have moved these spikes like small pickaxes.
+        Its face was protected by two long brow horns, which was unusual for this type of dinosaur.
+        Albertoceratops was one of the centrosaurines, a group of dinosaurs that had a single large horn over their nose.
+    </string>
+    <string name="albertosaurus_info">This dinosaur was built just like its closest relative, Tyrannosaurus Rex; but was not as powerful or as tall.
+        The two dinosaurs looked almost identical, specially to terrified plant eaters, such as duckbills and horned dinosaurs.
+        Albertosaurus had one row of teeth in each jaw but had at least one row of replacement teeth ready to come through.
+        It had tiny, two-fingered hands and its arms were too short to put food in its mouth - scientists are not sure what they were used for.
+    </string>
+    <string name="allosaurus_info">This is one of the most well-known dinosaurs.
+        It has become the defining Jurassic meat eater and the model of a carnosaur - a large, heavily built theropod.
+        Allosaurus was terrifying at any stage of its life.
+        As a baby it ate lizards, mammals and insects.
+        As a kid it ate other baby dinosaurs.
+        As a teenager it ate anything smaller than itself.
+        As an adult it ate everything - what it could not hunt it scavenged.
+        Its arms were muscular and its serrated teeth ripped faster than a chainsaw.
+
+        \n\nFeeding the Family&#8230;
+        \nAllosaurus roamed the forest of North America 150million years ago.
+        It hunted mostly small plant eaters, such as Camptosaurus, and sometimes, giant sauropods, such as Diplodocus.
+        These dinosaurs ofter hunted in pairs or packs but they also hunted on their own.
+
+        \n\nAllosaurus Anatomy&#8230;
+        \nAllosaurus was well equipped for hunting.
+        Strong, grasping claws on its front legs, razor-sharp teeth, and a flexible jaw made this dinosaur a formidable predator.
+    </string>
+    <string name="alvarezsaurus_info">This rare dinosaur was close to the group of meat eaters that was most related to birds.
+        Although it was from South America, it had feathers similar to those of the ornithomimids, or ostrich-like dinosaurs of North America.
+        Not much is known about this dinosaur because scientists lack a complete skeleton, but we know it could outrun most other dinosaurs and could catch small prey.
     </string>
     <string name="compsognathus_info">Compsognathus was a theropod the size of a large turkey, and an active predator of small animals.
         One specimen has a complete lizard inside its stomach - it had been swallowed whole.

@@ -85,6 +85,54 @@ public class DinosaurActivity extends AppCompatActivity {
                 info = getResources().getString(R.string.agustinia_info);
                 map = R.drawable.world_map_argentina;
                 break;
+            case "Albertoceratops" :
+                pronunciation = "(Pronunciation: al-BER-to-SER-a-tops)";
+                image = R.drawable.albertoceratops;
+                fact_meaning = "Alberta (Canada) Horned Face";
+                fact_date = "Late Cretaceous";
+                fact_group = "Theropoda";
+                fact_diet = "Plants";
+                fact_size = "5m (16feet) long";
+                fact_fossilLocation = "USA, Canada 2007";
+                info = getResources().getString(R.string.albertoceratops_info);
+                map = R.drawable.world_map_canada_usa;
+                break;
+            case "Albertosaurus" :
+                pronunciation = "(Pronunciation: al-BER-to-SAW-rus)";
+                image = R.drawable.albertosaurus;
+                fact_meaning = "Alberta (Canada) Lizard";
+                fact_date = "Late Cretaceous";
+                fact_group = "Theropoda";
+                fact_diet = "Meat";
+                fact_size = "8m (26feet) long";
+                fact_fossilLocation = "USA, Canada 1905";
+                info = getResources().getString(R.string.albertosaurus_info);
+                map = R.drawable.world_map_canada_usa;
+                break;
+            case "Allosaurus" :
+                pronunciation = "(Pronunciation: AL-oh-SAW-rus)";
+                image = R.drawable.allosaurus;
+                fact_meaning = "Other Lizard";
+                fact_date = "Late Jurassic";
+                fact_group = "Theropoda";
+                fact_diet = "Meat";
+                fact_size = "12m (39feet) long";
+                fact_fossilLocation = "USA 1877";
+                info = getResources().getString(R.string.allosaurus_info);
+                map = R.drawable.world_map_usa;
+                break;
+            case "Alvarezsaurus" :
+                pronunciation = "(Pronunciation: ahl-vahr-ez-saw-rus)";
+                image = R.drawable.alvarezsaurus;
+                fact_meaning = "After Don Gregorio Alvarez";
+                fact_date = "Late Cretaceous";
+                fact_group = "Theropoda";
+                fact_diet = "Meat";
+                fact_size = "2m (6feet) long";
+                fact_fossilLocation = "Argentina 1991";
+                info = getResources().getString(R.string.alvarezsaurus_info);
+                map = R.drawable.world_map_argentina;
+                break;
             case "Compsognathus" :
                 pronunciation = "(Pronunciation: KOMP-sog-NA-thus)";
                 image = R.drawable.compsognathus;
