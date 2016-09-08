@@ -65,9 +65,9 @@ public class DinosaurActivity extends AppCompatActivity {
                 pronunciation = "(Pronunciation: ah-BEL-ee-SAW-rus)";
                 image = R.drawable.abelisaurus;
                 fact_meaning = "After Roberto Abel";
-                fact_date = "Late Cretaceous";
-                fact_group = "Theropoda";
-                fact_diet = "Meat";
+                fact_date = getString(R.string.late_cretaceous);
+                fact_group = getString(R.string.theropoda);
+                fact_diet = getString(R.string.meat);
                 fact_size = "2m (6.6feet) long";
                 fact_fossilLocation = "Argentina 1985";
                 info = getResources().getString(R.string.abelisaurus_info);
@@ -77,9 +77,9 @@ public class DinosaurActivity extends AppCompatActivity {
                 pronunciation = "(Pronunciation: ah-goo-STEE-nee-a)";
                 image = R.drawable.agustinia;
                 fact_meaning = "After Agustin Martinelli";
-                fact_date = "Early Cretaceous";
-                fact_group = "Sauropodamorpha";
-                fact_diet = "Plants";
+                fact_date = getString(R.string.early_cretaceous);
+                fact_group = getString(R.string.sauropodomorpha);
+                fact_diet = getString(R.string.plants);
                 fact_size = "15m (50feet) long";
                 fact_fossilLocation = "Argentina 1999";
                 info = getResources().getString(R.string.agustinia_info);
@@ -89,9 +89,9 @@ public class DinosaurActivity extends AppCompatActivity {
                 pronunciation = "(Pronunciation: al-BER-to-SER-a-tops)";
                 image = R.drawable.albertoceratops;
                 fact_meaning = "Alberta (Canada) Horned Face";
-                fact_date = "Late Cretaceous";
-                fact_group = "Theropoda";
-                fact_diet = "Plants";
+                fact_date = getString(R.string.late_cretaceous);
+                fact_group = getString(R.string.theropoda);
+                fact_diet = getString(R.string.plants);
                 fact_size = "5m (16feet) long";
                 fact_fossilLocation = "USA, Canada 2007";
                 info = getResources().getString(R.string.albertoceratops_info);
@@ -101,9 +101,9 @@ public class DinosaurActivity extends AppCompatActivity {
                 pronunciation = "(Pronunciation: al-BER-to-SAW-rus)";
                 image = R.drawable.albertosaurus;
                 fact_meaning = "Alberta (Canada) Lizard";
-                fact_date = "Late Cretaceous";
-                fact_group = "Theropoda";
-                fact_diet = "Meat";
+                fact_date = getString(R.string.late_cretaceous);
+                fact_group = getString(R.string.theropoda);
+                fact_diet = getString(R.string.meat);
                 fact_size = "8m (26feet) long";
                 fact_fossilLocation = "USA, Canada 1905";
                 info = getResources().getString(R.string.albertosaurus_info);
@@ -113,9 +113,9 @@ public class DinosaurActivity extends AppCompatActivity {
                 pronunciation = "(Pronunciation: AL-oh-SAW-rus)";
                 image = R.drawable.allosaurus;
                 fact_meaning = "Other Lizard";
-                fact_date = "Late Jurassic";
-                fact_group = "Theropoda";
-                fact_diet = "Meat";
+                fact_date = getString(R.string.late_jurassic);
+                fact_group = getString(R.string.theropoda);
+                fact_diet = getString(R.string.meat);
                 fact_size = "12m (39feet) long";
                 fact_fossilLocation = "USA 1877";
                 info = getResources().getString(R.string.allosaurus_info);
@@ -125,21 +125,33 @@ public class DinosaurActivity extends AppCompatActivity {
                 pronunciation = "(Pronunciation: ahl-vahr-ez-saw-rus)";
                 image = R.drawable.alvarezsaurus;
                 fact_meaning = "After Don Gregorio Alvarez";
-                fact_date = "Late Cretaceous";
-                fact_group = "Theropoda";
-                fact_diet = "Meat";
+                fact_date = getString(R.string.late_cretaceous);
+                fact_group = getString(R.string.theropoda);
+                fact_diet = getString(R.string.meat);
                 fact_size = "2m (6feet) long";
                 fact_fossilLocation = "Argentina 1991";
                 info = getResources().getString(R.string.alvarezsaurus_info);
                 map = R.drawable.world_map_argentina;
                 break;
+            case "Alwalkeria" :
+                pronunciation = "(Pronunciation: ahl-wah-KEER-ee-a)";
+                image = R.drawable.alwalkeria;
+                fact_meaning = "After Alick Walker";
+                fact_date = getString(R.string.late_triassic);
+                fact_group = getString(R.string.sauropodomorpha);
+                fact_diet = getString(R.string.meat) + " + " + getString(R.string.plants);
+                fact_size = "1m (3feet) long";
+                fact_fossilLocation = "India 1986";
+                info = getResources().getString(R.string.alwalkeria_info);
+                map = R.drawable.world_map_india;
+                break;
             case "Compsognathus" :
                 pronunciation = "(Pronunciation: KOMP-sog-NA-thus)";
                 image = R.drawable.compsognathus;
                 fact_meaning = "Elegant Jaw";
-                fact_date = "Late Jurassic";
-                fact_group = "Theropoda";
-                fact_diet = "Meat";
+                fact_date = getString(R.string.late_jurassic);
+                fact_group = getString(R.string.theropoda);
+                fact_diet = getString(R.string.meat);
                 fact_size = "1m (3feet) long";
                 fact_fossilLocation = "France, Germany 1859";
                 info = getResources().getString(R.string.compsognathus_info);
@@ -149,9 +161,9 @@ public class DinosaurActivity extends AppCompatActivity {
                 pronunciation = "(Pronunciation: dip-LOD-o-kus)";
                 image = R.drawable.diplodocus;
                 fact_meaning = "Double-beam";
-                fact_date = "Late Jurassic";
-                fact_group = "Sauropodamorpha";
-                fact_diet = "Plants";
+                fact_date = getString(R.string.late_jurassic);
+                fact_group = getString(R.string.sauropodomorpha);
+                fact_diet = getString(R.string.plants);
                 fact_size = "30m (98feet) long";
                 fact_fossilLocation = "USA 1878";
                 info = getResources().getString(R.string.diplodocus_info);
@@ -161,9 +173,9 @@ public class DinosaurActivity extends AppCompatActivity {
                 pronunciation = "(Pronunciation: SPY-noh-SAW-rus)";
                 image = R.drawable.spinosaurus;
                 fact_meaning = "Spine Lizard";
-                fact_date = "Early Cretaceous";
-                fact_group = "Theropoda";
-                fact_diet = "Meat";
+                fact_date = getString(R.string.early_cretaceous);
+                fact_group = getString(R.string.theropoda);
+                fact_diet = getString(R.string.meat);
                 fact_size = "10m (33feet) long";
                 fact_fossilLocation = "Egypt, North Africa 1915";
                 info = getResources().getString(R.string.spinosaurus_info);
@@ -173,9 +185,9 @@ public class DinosaurActivity extends AppCompatActivity {
                 pronunciation = "(Pronunciation: STEG-oh-SAW-rus)";
                 image = R.drawable.stegosaurus;
                 fact_meaning = "Roofed Lizard";
-                fact_date = "Late Jurassic";
-                fact_group = "Stegosauria";
-                fact_diet = "Plants";
+                fact_date = getString(R.string.late_jurassic);
+                fact_group = getString(R.string.stegosauria);
+                fact_diet = getString(R.string.plants);
                 fact_size = "9m (29feet) long";
                 fact_fossilLocation = "USA 1877";
                 info = getResources().getString(R.string.stegosaurus_info);
@@ -185,9 +197,9 @@ public class DinosaurActivity extends AppCompatActivity {
                 pronunciation = "(Pronunciation: try-SER-a-tops)";
                 image = R.drawable.triceratops;
                 fact_meaning = "Three-horned Face";
-                fact_date = "Late Cretaceous";
-                fact_group = "Ceratopsia";
-                fact_diet = "Plants";
+                fact_date = getString(R.string.late_cretaceous);
+                fact_group = getString(R.string.ceratopsia);
+                fact_diet = getString(R.string.plants);
                 fact_size = "9m (30feet) long";
                 fact_fossilLocation = "Canada, USA 1889";
                 info = getResources().getString(R.string.triceratops_info);
@@ -197,9 +209,9 @@ public class DinosaurActivity extends AppCompatActivity {
                 pronunciation = "(Pronunciation: tie-RAN-oh-SAW-rus)";
                 image = R.drawable.tyrannosaurus;
                 fact_meaning = "Tyrant Lizard";
-                fact_date = "Late Cretaceous";
-                fact_group = "Theropoda";
-                fact_diet = "Meat";
+                fact_date = getString(R.string.late_cretaceous);
+                fact_group = getString(R.string.theropoda);
+                fact_diet = getString(R.string.meat);
                 fact_size = "12m (40feet) long";
                 fact_fossilLocation = "Canada, USA 1905";
                 info = getResources().getString(R.string.tyrannosaurus_info);
@@ -209,9 +221,9 @@ public class DinosaurActivity extends AppCompatActivity {
                 pronunciation = "(Pronunciation: ve-LOSS-i-RAP-tor)";
                 image = R.drawable.velociraptor;
                 fact_meaning = "Rapid Thief";
-                fact_date = "Late Cretaceous";
-                fact_group = "Theropoda";
-                fact_diet = "Meat";
+                fact_date = getString(R.string.late_cretaceous);
+                fact_group = getString(R.string.theropoda);
+                fact_diet = getString(R.string.meat);
                 fact_size = "1m (3feet) long";
                 fact_fossilLocation = "Mongolia, China 1924";
                 info = getResources().getString(R.string.velociraptor_info);
@@ -262,24 +274,45 @@ public class DinosaurActivity extends AppCompatActivity {
 
                 switch (position) {
                     case 0:
-                        resource = R.string.compsognathus;
+                        resource = R.string.abelisaurus;
                         break;
                     case 1:
-                        resource = R.string.diplodocus;
+                        resource = R.string.agustinia;
                         break;
                     case 2:
-                        resource = R.string.spinosaurus;
+                        resource = R.string.albertoceratops;
                         break;
                     case 3 :
-                        resource = R.string.stegosaurus;
+                        resource = R.string.albertosaurus;
                         break;
                     case 4 :
-                        resource = R.string.triceratops;
+                        resource = R.string.allosaurus;
                         break;
                     case 5 :
-                        resource = R.string.tyrannosaurus;
+                        resource = R.string.alvarezsaurus;
                         break;
                     case 6 :
+                        resource = R.string.alwalkeria;
+                        break;
+                    case 7 :
+                        resource = R.string.compsognathus;
+                        break;
+                    case 8 :
+                        resource = R.string.diplodocus;
+                        break;
+                    case 9 :
+                        resource = R.string.spinosaurus;
+                        break;
+                    case 10 :
+                        resource = R.string.stegosaurus;
+                        break;
+                    case 11 :
+                        resource = R.string.triceratops;
+                        break;
+                    case 12 :
+                        resource = R.string.tyrannosaurus;
+                        break;
+                    case 13 :
                         resource = R.string.velociraptor;
                         break;
                 }

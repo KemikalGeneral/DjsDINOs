@@ -11,6 +11,7 @@ public enum DataSource {
     Albertosaurus(R.string.albertosaurus, R.drawable.albertosaurus),
     Allosaurus(R.string.allosaurus, R.drawable.allosaurus),
     Alvarezsaurus(R.string.alvarezsaurus, R.drawable.alvarezsaurus),
+    Alwalkeria(R.string.alwalkeria, R.drawable.alwalkeria),
     Compsognathus(R.string.compsognathus, R.drawable.compsognathus),
     Diplodocus(R.string.diplodocus, R.drawable.diplodocus),
     Spinosaurus(R.string.spinosaurus, R.drawable.spinosaurus),

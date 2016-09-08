@@ -62,24 +62,27 @@ public class CustomAdapter extends PagerAdapter {
                         resource = R.string.alvarezsaurus;
                         break;
                     case 6 :
-                        resource = R.string.compsognathus;
+                        resource = R.string.alwalkeria;
                         break;
                     case 7 :
-                        resource = R.string.diplodocus;
+                        resource = R.string.compsognathus;
                         break;
                     case 8 :
-                        resource = R.string.spinosaurus;
+                        resource = R.string.diplodocus;
                         break;
                     case 9 :
-                        resource = R.string.stegosaurus;
+                        resource = R.string.spinosaurus;
                         break;
                     case 10 :
-                        resource = R.string.triceratops;
+                        resource = R.string.stegosaurus;
                         break;
                     case 11 :
-                        resource = R.string.tyrannosaurus;
+                        resource = R.string.triceratops;
                         break;
                     case 12 :
+                        resource = R.string.tyrannosaurus;
+                        break;
+                    case 13 :
                         resource = R.string.velociraptor;
                         break;
                 }

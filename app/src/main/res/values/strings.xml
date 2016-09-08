@@ -11,6 +11,7 @@
         <item>@string/albertosaurus</item>
         <item>@string/allosaurus</item>
         <item>@string/alvarezsaurus</item>
+        <item>@string/alwalkeria</item>
         <item>@string/compsognathus</item>
         <item>@string/diplodocus</item>
         <item>@string/spinosaurus</item>
@@ -27,6 +28,7 @@
     <string name="albertosaurus">Albertosaurus</string>
     <string name="allosaurus">Allosaurus</string>
     <string name="alvarezsaurus">Alvarezsaurus</string>
+    <string name="alwalkeria">Alwalkeria</string>
     <string name="compsognathus">Compsognathus</string>
     <string name="diplodocus">Diplodocus</string>
     <string name="spinosaurus">Spinosaurus</string>
@@ -79,6 +81,12 @@
     <string name="alvarezsaurus_info">This rare dinosaur was close to the group of meat eaters that was most related to birds.
         Although it was from South America, it had feathers similar to those of the ornithomimids, or ostrich-like dinosaurs of North America.
         Not much is known about this dinosaur because scientists lack a complete skeleton, but we know it could outrun most other dinosaurs and could catch small prey.
+    </string>
+    <string name="alwalkeria_info">This unusual dinosaur fromIndia may have eaten both meat and plants.
+        Its teeth were unlike those of most other dinosaurs - some were straight and others were curved.
+        The most complete skull fossil found is small.
+        This could mean the dinosaur was a baby and scientists are yet to find an adult.
+        If it was an adult, this dinosaur would have been small enough to sit in your lap.
     </string>
     <string name="compsognathus_info">Compsognathus was a theropod the size of a large turkey, and an active predator of small animals.
         One specimen has a complete lizard inside its stomach - it had been swallowed whole.
@@ -213,5 +221,25 @@
         Nam non volutpat mauris, sed vulputate turpis. Nulla facilisi. Nam ultrices massa ac tortor ornare ultricies.
         Morbi maximus semper finibus. Duis sollicitudin turpis augue, sit amet egestas augue vulputate vel.
         Pellentesque pharetra sed purus eget blandit. Ut tempus neque quis orci accumsan pellentesque.</string>
+
+    <!--Dino Dates/Periods-->
+    <string name="triassic">Triassic</string>
+    <string name="late_triassic">Late Triassic</string>
+    <string name="jurassic">Jurassic</string>
+    <string name="late_jurassic">Late Jurassic</string>
+    <string name="early_cretaceous">Early Cretaceous</string>
+    <string name="late_cretaceous">Late Cretaceous</string>
+
+    <!--Dino Groups-->
+    <string name="theropoda">Theropoda</string>
+    <string name="sauropodomorpha">Sauropodomorpha</string>
+    <string name="armoured_plant_eater">Armoured Plant Eater</string>
+    <string name="cerapod">Cerapod</string>
+    <string name="stegosauria">Stegosauria</string>
+    <string name="ceratopsia">Ceratopsia</string>
+
+    <!--Dino Diet-->
+    <string name="meat">Meat</string>
+    <string name="plants">Plants</string>
 
 </resources>
