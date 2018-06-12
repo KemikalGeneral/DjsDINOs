@@ -1,5 +1,5 @@
 # DjsDINOs
 
-Digitizing my sons Dinosaur Encyclopedia.
+Digitising my sons Dinosaur Encyclopedia into an Android application.
 
-Select a dinosaur and click for further information (Name, Pronunciation, Image, Facts, Info, Location)
+Swipe through the images, select a dinosaur, and click for further information (Name, Pronunciation, Image, Facts, Info, Location).
